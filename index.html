@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Kumar's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Santoshsh Kumar</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search articles...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="content">
+            <div class="featured-post">
+                <h1>Featured Post</h1>
+                <article class="post featured">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Coding Setup">
+                    <div class="post-content">
+                        <div class="post-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">Beginner</span>
+                        </div>
+                        <h2>Getting Started with Web Development</h2>
+                        <div class="post-meta">
+                            <span class="date"><i class="far fa-calendar"></i> April 15, 2024</span>
+                            <span class="author"><i class="far fa-user"></i> Amresh Kumar</span>
+                            <span class="read-time"><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <p>Learn the essential steps to begin your journey in web development. From HTML to JavaScript, we'll cover the fundamentals you need to know.</p>
+                        <div class="post-footer">
+                            <a href="#" class="read-more">Read More</a>
+                            <div class="social-share">
+                                <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                                <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook"></i></button>
+                                <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="latest-posts">
+                <h2>Latest Posts</h2>
+                <article class="post">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Laptop Code">
+                    <div class="post-content">
+                        <div class="post-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">ES6</span>
+                        </div>
+                        <h2>Modern JavaScript Features</h2>
+                        <div class="post-meta">
+                            <span class="date"><i class="far fa-calendar"></i> April 12, 2024</span>
+                            <span class="author"><i class="far fa-user"></i> Amresh Kumar</span>
+                            <span class="read-time"><i class="far fa-clock"></i> 4 min read</span>
+                        </div>
+                        <p>Explore the latest JavaScript features that make coding more efficient and enjoyable. We'll dive into ES6+ features you should know.</p>
+                        <div class="post-footer">
+                            <a href="#" class="read-more">Read More</a>
+                            <div class="social-share">
+                                <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                                <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook"></i></button>
+                                <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="newsletter-signup">
+                <h3>Subscribe to My Newsletter</h3>
+                <p>Get the latest posts delivered right to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget about-widget">
+                <h3>About Me</h3>
+                <div class="author-info">
+                    <img src="https://avatars.githubusercontent.com/u/1234567" alt="Amresh Kumar" class="author-avatar">
+                    <p>Hi, I'm Santosh Kumar, a passionate web developer sharing my journey and knowledge through this blog.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="widget categories-widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-code"></i> Web Development <span>12</span></a></li>
+                    <li><a href="#"><i class="fab fa-js"></i> JavaScript <span>8</span></a></li>
+                    <li><a href="#"><i class="fab fa-css3"></i> CSS Tips <span>6</span></a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> Career Advice <span>4</span></a></li>
+                </ul>
+            </div>
+
+            <div class="widget popular-posts-widget">
+                <h3>Popular Posts</h3>
+                <div class="popular-posts">
+                    <article class="mini-post">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Coding">
+                        <div class="mini-post-content">
+                            <h4>Building Responsive Layouts</h4>
+                            <span class="views"><i class="far fa-eye"></i> 1.2k views</span>
+                        </div>
+                    </article>
+                    <article class="mini-post">
+                        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd" alt="CSS Grid">
+                        <div class="mini-post-content">
+                            <h4>CSS Grid vs Flexbox</h4>
+                            <span class="views"><i class="far fa-eye"></i> 956 views</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="widget tags-widget">
+                <h3>Popular Tags</h3>
+                <div class="tags-cloud">
+                    <a href="#" class="tag">JavaScript</a>
+                    <a href="#" class="tag">React</a>
+                    <a href="#" class="tag">CSS</a>
+                    <a href="#" class="tag">Web Design</a>
+                    <a href="#" class="tag">HTML</a>
+                    <a href="#" class="tag">Programming</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p>A blog about web development, programming, and career growth in tech.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Santosh Kumar. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
